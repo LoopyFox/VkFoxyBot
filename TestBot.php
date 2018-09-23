@@ -5,10 +5,10 @@ return;
 } 
 
 //Строка для подтверждения адреса сервера из настроек Callback API 
-$confirmation_token = '592949b7'; 
+$confirmation_token = 'ctoken'; 
 
 //Ключ доступа сообщества 
-$token = 'testbusi9124'; 
+$token = 'token'; 
 
 //Получаем и декодируем уведомление 
 $data = json_decode(file_get_contents('php://input')); 
